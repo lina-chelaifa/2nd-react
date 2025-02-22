@@ -5,8 +5,9 @@ import './App.css'
 
 import * as React from "react";
 
+const title = "React"; // Define variable outside the component
+
 function App() {
-  const title = "React"; // Define variable inside the component
   return (
     <div>
       <h1>Hello {title}</h1>
